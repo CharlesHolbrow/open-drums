@@ -104,7 +104,7 @@ module.exports = [
 './TR909all/HHOD8.WAV',
 './TR909all/LT7D3.WAV',
 './TR909all/HHCD4.WAV',
-'./TR909all/BT0A0A7.WAV',
+'./TR909all/BT0A0D7.WAV',
 './TR909all/MT7D7.WAV',
 './TR909all/BT7A0D3.WAV',
 './TR909all/MT7DA.WAV',
