@@ -10,3 +10,4 @@
 *.WAV filter=lfs diff=lfs merge=lfs -text
 *.TXT filter=lfs diff=lfs merge=lfs -text
 *.js filter=lfs diff=lfs merge=lfs -text
+*.json filter=lfs diff=lfs merge=lfs -text
