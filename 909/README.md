@@ -4,6 +4,8 @@
 
 Free 909 drum sample library packaged for [`fluid-music`](https://www.npmjs.com/package/fluid-music).
 
+Samples originally downloaded from [machines.hyperreal.org](http://machines.hyperreal.org/categories/drum-machines/TR-909/samples/).
+
 ## License
 
 The original audio files were recorded by Jason Baker / Rob Roy Recordings 
