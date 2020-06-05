@@ -1,6 +1,6 @@
-# @fluid-music/909
+# @fluid-music/tr-909
 
-`npm install @fluid-music/909`
+`npm install @fluid-music/tr-909`
 
 Free 909 drum sample library packaged for [`fluid-music`](https://www.npmjs.com/package/fluid-music).
 

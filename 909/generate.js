@@ -1,3 +1,4 @@
+const fs = require('fs');
 const files = require('./files').sort((a,b) => a.localeCompare(b));
 
 const regexLib = {
@@ -18,13 +19,13 @@ const regexLib = {
 
 const values = {  A: 10 };
 
-const results = files.map((path) => {
+const all = files.map((path) => {
   for (let [drumName, [regex, params, c]] of Object.entries(regexLib)) {
     let match = path.match(regex);
     if (!match) continue;
 
     let meta = {};
-    let item = {drumName, meta, path};
+    let item = {drumName, meta, path, type: 'file' };
     
     params.forEach((param, i) => {
       let key = match[i+1];
@@ -35,3 +36,19 @@ const results = files.map((path) => {
   }
   console.log('unhandled:', path);
 });
+
+const byType = {}
+all.forEach(item => {
+  if (!byType.hasOwnProperty(item.drumName)) byType[item.drumName] = [];
+  byType[item.drumName].push(item);
+});
+
+let out = fs.createWriteStream('./by-type.js');
+out.write('module.exports = ', 'utf8');
+out.write(JSON.stringify(byType, null, 2), 'utf8');
+out.write(';\n', 'utf8');
+
+out = fs.createWriteStream('./all.js');
+out.write('module.exports = ', 'utf8');
+out.write(JSON.stringify(all, null, 2), 'utf8');
+out.write(';\n', 'utf8');
