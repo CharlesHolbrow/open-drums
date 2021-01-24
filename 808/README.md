@@ -1,4 +1,4 @@
-# @fluid-music/909
+# @fluid-music/808
 
 `npm install @fluid-music/808`
 
@@ -8,4 +8,4 @@ Samples originally downloaded from [machines.hyperreal.org](http://machines.hype
 
 ## License
 
-The original audio files were recorded by Michael Fischer (fischer1@student.msu.edu). He included a [.TXT](./TR808WAV/TR808.TXT) with detailed information about the samples, and no licensing restrictions.
+The original audio files were recorded by Michael Fischer (fischer1@student.msu.edu), who included a [.TXT](./TR808WAV/TR808.TXT) with detailed information about the samples, and no licensing restrictions.
