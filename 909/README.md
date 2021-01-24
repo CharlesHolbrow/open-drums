@@ -9,8 +9,7 @@ Samples originally downloaded from [machines.hyperreal.org](http://machines.hype
 ## License
 
 The original audio files were recorded by Jason Baker / Rob Roy Recordings 
-(bake0028@gold.tc.umn.edu). These files came bundled with a `.txt` file that
-included the text below.
+(bake0028@gold.tc.umn.edu). These files came bundled with a `.txt` file that included the text below.
 
 > I hope you find this set useful.  Please feel free to copy or distribute
 > the set in any way.  Please DO NOT change samples, add samples,
